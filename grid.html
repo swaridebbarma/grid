@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .content1{
+            border: 2px solid red;
+   
+        }
+        .content1::after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+        .box1{
+            border: 2px solid black;
+            /* display: inline-block; */
+            float: left;
+            height: 56px;
+            width: 33.33%;
+        }
+
+        .box2{
+            border: 2px solid black;
+            /* display: inline-block; */
+            float: left;
+            height: 56px;
+            width: 33.33%;
+        }
+
+        .box3{
+            border: 2px solid black;
+            /* display: inline-block; */
+            float: left;
+            height: 56px;
+            width: 33.33%;
+
+        }
+        .content2{
+            border: 3px solid red;
+            /* height: 60px;
+            font-size: 0px; */
+        }
+        .content2::after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+        .box4{
+            border: 3px solid black;
+            /* display: inline-block; */
+            float: left;
+            height: 111px;
+            width: 50%;
+        }
+       
+        .blue-box1{
+            border: 2px solid blue;
+            height: 49.79%;
+
+        }
+        .box5{
+            border: 3px solid black;
+            /* display: inline-block; */
+            float: left;
+            height: 111px;
+            width: 50%;
+        }
+        .content3{
+            border: 3px solid red;
+ 
+        }
+        .content3::after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+        .box6{
+            border: 3px solid black;
+            /* display: inline-block; */
+            float: left;
+            height: 100px;
+            width: 30.33%;
+
+        }
+        .blue-box2{
+            border: 2px solid blue;
+            height: 48px;
+        }
+        .box7{
+            border: 3px solid black;
+            /* display: inline-block; */
+            float: left;
+            height: 100px;
+            width: 16.33%;
+
+        }
+        .box8{
+            border: 3px solid black;
+            /* display: inline-block; */
+            float: left;
+            height: 100px;
+            width: 15.36%;
+
+        }
+        .box9{
+            border: 3px solid black;
+            /* display: inline-block; */
+            float: left;
+            height: 100px;
+            width: 482px;
+        }
+        .blue-box3{
+            border: 2px solid blue;
+            height: 32px;
+        }
+        .content4{
+            border: 2px solid red;
+
+        }
+        .content4::after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+        .box10{
+            border: 3px solid black;
+            /* display: inline-block; */
+            float: left;
+            height: 56px;
+            width: 50.10%;
+
+        }
+        .box11{
+            border: 3px solid black;
+            /* display: inline-block; */
+            float: left;
+            height: 56px;
+            width: 49.87%;
+        }
+        .content5{
+            border: 3px solid red;
+ 
+        }
+        .content5::after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+        .box12{
+            border: 2px solid black;
+            /* display: inline-block; */
+            float: left;
+            height: 56px;
+            width: 50.10%;
+        }
+        .box13{
+            border: 2px solid black;
+            /* display: inline-block; */
+            float: left;
+            height: 56px;
+            width: 49.87%;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="content1">
+        <div class="box1">box1</div>
+        <div class="box2">box2</div>
+        <div class="box3">box3</div>
+    </div>
+
+    <div class="content2">
+        <div class="box4">
+            <div class="blue-box1">extra-box1</div>
+            <div class="blue-box1">extra-box2</div>
+        </div>
+        <div class="box5">box5</div>
+    </div>
+
+    <div class="content3">
+        <div class="box6">
+            <div class="blue-box2">extra-box3</div>
+            <div class="blue-box2">extra-box4</div>
+        </div>
+
+        <div class="box7">box7</div>
+        <div class="box8">box8</div>
+        <div class="box9">
+            <div class="blue-box3">extra-box5</div>
+            <div class="blue-box3">extra-box6</div>
+            <div class="blue-box3">extra-box7</div>
+        </div>
+    </div>
+
+    <div class="content4">
+        <div class="box10">box10</div>
+        <div class="box11">box11</div>
+    </div>
+
+    <div class="content5">
+        <div class="box12">box12</div>
+        <div class="box13">box13</div>
+    </div> 
+
+</body>
+</html>
